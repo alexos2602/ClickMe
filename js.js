@@ -7,15 +7,20 @@ function mas2 () {
 document.onclick = function() {
 	clicks += 1;
 
+	/*---------------Para aparecer Boton----------------*/
 	if (clicks > 20) {
 		document.getElementById("por2").style.display = "block";
 	}
 
+	/*---------------Mensaje final----------------*/
 	if (clicks > 50) {
 		document.getElementById("h2").style.display = "block";
 	}
+
+	/*---------------Inserta los clicks hechos----*/
 	document.getElementById("clicks").innerHTML = clicks;
 
+	/*---------------Crea colores-----------------*/
     var simbolos, color;
 	simbolos = "0123456789ABCDEF";
 	color = "#";
