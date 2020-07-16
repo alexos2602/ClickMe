@@ -1,11 +1,4 @@
 div{
     display: flex;
     justify-content: center;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    height: 96vh;
-    width: 98vw;
-    margin: 0;
-    box-sizing: border-box;
 }
