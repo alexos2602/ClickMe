@@ -3,3 +3,7 @@ div{
     flex-direction: column;
     align-items: center;
 }
+
+#por2, #h2{
+    display: none;
+}
